@@ -117,7 +117,7 @@ body {
     display: block;
 }
 
-.arrow__bottom {
+#mobile__none {
     display: none;
 }
 
@@ -128,9 +128,5 @@ body {
 
     .name {
         margin-right: -15px;
-    }
-
-    .arrow__bottom {
-        display: none;
     }
 }
