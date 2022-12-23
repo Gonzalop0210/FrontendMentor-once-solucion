@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.container__main {
+    min-width: 320px;
+    max-width: 375px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-family: 'Manrope';
+    margin: 0 20px;
+    position: relative;
+}
+
+.container__img, .img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container__content {
+    padding: 30px 40px 20px 40px;
+}
+
+.title {
+    font-size: 1.1rem;
+    color: hsl(217, 19%, 35%);
+}
+
+.paragraph {
+    font-size: .9rem;
+    margin: 15px 0;
+    color: hsl(214, 17%, 51%);
+}
+
+.container__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img__perfil {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container__name__date {
+    margin-right: 45px;
+}
+
+.name, .date {
+    font-size: .9rem;
+}
+
+.date {
+    color: hsl(212, 23%, 69%);
+}
+
+.icono__arrow {
+    color: hsl(214, 17%, 51%);
+    background-color: hsl(210, 46%, 95%);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.container__none {
+    display: none;
+}
+
+.container__footer__redes {
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 40px;
+}
+
+.social__net {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.net__share {
+    text-transform: uppercase;
+    color: hsl(212, 23%, 69%);
+    font-size: .8rem;
+    letter-spacing: 4px;
+}
+
+.icono__arrow__dark {
+    background-color: hsl(212, 23%, 69%);
+    padding: 8px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.mostrar {
+    display: block;
+}
+
+.arrow__bottom {
+    display: none;
+}
+
+@media only screen and (max-width: 385px) and (min-width: 300px) {
+    .name, .date {
+        font-size: .8rem;
+    }
+
+    .name {
+        margin-right: -15px;
+    }
+
+    .arrow__bottom {
+        display: none;
+    }
+}

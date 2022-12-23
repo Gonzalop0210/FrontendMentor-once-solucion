@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1440px) {
+    .container__main {
+        display: flex;
+        align-items: center;
+        min-width: 375px;
+        max-width: 900px;
+    }
+
+    .img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .container__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .container__footer {
+        margin-top: 30px;
+    }
+
+    .container__name__date {
+        margin-right: 180px;
+    }
+
+    .container__footer__redes {
+        left: 80%;
+        bottom: 32%;
+        width: 230px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .icono__arrow__dark {
+        display: none;
+    }
+
+    .icono__desktop {
+        background-color: hsl(212, 23%, 69%);
+        padding: 8px;
+        border-radius: 50%;
+        color: #fff;
+    }
+
+    .arrow__bottom {
+        color: hsl(217, 19%, 35%);
+        transform: rotate(180deg);
+        position: absolute;
+        bottom: -65%;
+        font-size: 3rem;
+        left: 48%;
+        display: block;
+    }
+
+    .social {
+        width: 15px;
+    }
+}
